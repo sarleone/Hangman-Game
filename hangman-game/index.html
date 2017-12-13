@@ -4,48 +4,31 @@
 	<meta charset="UTF-8">
 	<title>Document</title>
 	<script type="text/javascript" src="assets/javascript/game.js"></script>
+	<link rel="stylesheet" type="text/css" href="assets/css/style.css"></script>
 	<meta name="viewport" content="width=device-width, initial-scale=1">
   	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-  	<link rel="stylesheet" href="https://bootswatch.com/4/simplex/bootstrap.min.css">
-  	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-  	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 </head>
-<body style="background-image: url('assets/images/greyfloral.png')">
-
+<body style="background-image: url('assets/images/botanical.jpeg')">
 	<div class="container">
 	  <div class="jumbotron">
 	    <h1>Hangman</h1>      
 	    <p>Tropical fruit bonanza</p>
   	</div>
 	
-	<div class="row" style="margin: auto;">
-	 <div class="card sm-6">
-	  <h3 class="card-header">Which fruit will it be?</h3>
-	  <div class="card-body">
-	    <h5 class="card-title">Special title treatment</h5>
-	    <!-- <h6 class="card-subtitle text-muted">Support card subtitle</h6> -->
-	  </div>
-	  <img style="height: 200px; width: 100%; display: block;" src="https://www.google.com/url?sa=i&rct=j&q=&esrc=s&source=images&cd=&ved=0ahUKEwjwp4r96oDYAhVEmuAKHRZsD0UQjRwIBw&url=https%3A%2F%2Fwww.pinterest.com%2Fdkdahlin24%2Fdecorpurchases_belize%2F&psig=AOvVaw3nCPM_ebOKSxELu8kpq391&ust=1513043115251166" alt="tropical fruits">
-	  <div class="card-body">
-	    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-	  </div>
-	  <!-- <div class="card-body">
-	    <a href="#" class="card-link">Card link</a>
-	    <a href="#" class="card-link">Another link</a>
-	  </div> -->
-	<!--   <div class="card-footer text-muted">
-	    2 days ago
-	  </div> -->
-	</div>
-	<div class="card sm-6">
-	  <div class="card-body">
-	    <h4 class="card-title">Card title</h4>
-	    <h6 class="card-subtitle mb-2 text-muted">Card subtitle</h6>
-	    <p class="card-text"><div id="game"</div></p>
-	    <!-- <a href="#" class="card-link">Card link</a>
-	    <a href="#" class="card-link">Another link</a> -->
-	  </div>
-	</div>
+<body style="background-image: url('assets/images/botanical.jpeg')">
+	<div class="content">
+		<div class="main"> 
+			<h2> <span id="winning-fruit"></span></h2>
+			<img class="image" src="assets/images/passion-fruit.png" alt="Sarah Leone" style="width:200px; height:175px;">
+		</div>
+		
+		<div class="sidebar">
+			<h3> Press any key to get started </h3>
+			<div class="wins">Wins <span id="wins"></span></div>
+			<div class="currentWord">Current word: <span id="currentWord"></span></div>
+			<div class="guessesCount">Number of guesses remaining <span id="currentWord"></span></div>
+			<div class="lettersGuesses">Letters already guessed <span id="lettersGuesses"></span></div>
+		</div>
 	</div>
 
 </body>
